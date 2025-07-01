@@ -1,0 +1,20 @@
+{
+  "name": "e2e-tests",
+  "version": "1.0.0",
+  "description": "Testes End-to-End para o Sistema de Gestão Financeira",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed"
+  },
+  "keywords": ["cypress", "e2e", "testing", "finance"],
+  "author": "Manus AI",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^13.18.3"
+  }
+}
+

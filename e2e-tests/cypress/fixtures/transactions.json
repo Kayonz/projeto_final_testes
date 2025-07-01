@@ -1,0 +1,35 @@
+{
+  "validTransaction": {
+    "description": "Compra no supermercado",
+    "amount": 150.50,
+    "transaction_type": "expense",
+    "transaction_date": "2024-01-15"
+  },
+  "incomeTransaction": {
+    "description": "Salário",
+    "amount": 3000.00,
+    "transaction_type": "income",
+    "transaction_date": "2024-01-01"
+  },
+  "invalidTransaction": {
+    "description": "",
+    "amount": -50,
+    "transaction_type": "invalid",
+    "transaction_date": ""
+  },
+  "categories": [
+    {
+      "name": "Alimentação",
+      "color": "#10B981"
+    },
+    {
+      "name": "Transporte",
+      "color": "#F59E0B"
+    },
+    {
+      "name": "Lazer",
+      "color": "#8B5CF6"
+    }
+  ]
+}
+

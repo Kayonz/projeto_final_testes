@@ -1,0 +1,28 @@
+{
+  "validUser": {
+    "username": "testuser",
+    "email": "test@example.com",
+    "password": "password123"
+  },
+  "adminUser": {
+    "username": "admin",
+    "email": "admin@example.com",
+    "password": "admin123456"
+  },
+  "invalidUser": {
+    "username": "",
+    "email": "invalid-email",
+    "password": "123"
+  },
+  "loginCredentials": {
+    "valid": {
+      "email": "test@example.com",
+      "password": "password123"
+    },
+    "invalid": {
+      "email": "wrong@example.com",
+      "password": "wrongpassword"
+    }
+  }
+}
+
